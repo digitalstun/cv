@@ -1,29 +1,32 @@
 <!doctype html>
-<html lang="en">
+<html data-theme="light" lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="stylesheet" href="/css/pico.min.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <title>Hello, world!</title>
+    <title>digitalStun</title>
   </head>
   <body>
+    <main class="container">
 
     <nav>
         <ul>
-          <li><strong>Brand</strong></li>
+      <li><a href="/"><strong>digitalstun</strong></a></li>
         </ul>
         <ul>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#" role="button">Contact</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/contact" role="button">Contact</a></li>
         </ul>
       </nav>
-    <main class="container">
-      <h1>Hello, world!</h1>
+   
+        <hgroup>
+        <h2>Hello, world!</h2>
+        <h4>Where Python and JavaScript meet the art of storytelling for a captivating web experience. Let's make something extraordinary together.</h4>
+        <a href="#" role="button">Get in touch</a>
+    </hgroup>
     </main>
-
-
     <div>
         <script type="text/javascript" src="{{ url_for('static', filename='index.js') }}"></script>
     </div>

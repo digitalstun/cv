@@ -9,6 +9,14 @@ app.register_blueprint(views, url_prefix="/views")
 def home():
     return render_template("index.html")
 
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route("/blog")
+def blog():
+    return render_template("blog.html")
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html")

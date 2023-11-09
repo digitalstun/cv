@@ -18,5 +18,5 @@
 # add footer with social 
 # add social on nav bar github, ig, linkedin, youtube in footer?
 
-# new nav items : blog cinema projects contact
+# new nav items : blog cinema (cinema should be an icon that represents visuals) projects contact
 # adapt nav with hamburger menu : more clean design

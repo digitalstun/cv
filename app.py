@@ -17,6 +17,11 @@ def projects():
 def blog():
     return render_template("blog.html")
 
+@app.route("/cinema")
+def cinema():
+    return render_template("cinema.html")
+
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html")
